@@ -1,0 +1,28 @@
+body{
+	padding-top: 70px;
+	background: yellow;
+}
+
+.navbar-fixed-top{
+	background: purple;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.jumbotron{
+	background: #4855FC;
+	color: white;
+}
+
+.glyphicon-camera::after 
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 63px;
+}
+
