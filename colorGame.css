@@ -1,0 +1,88 @@
+body{
+	background-color: #232323; 
+	margin: 0;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	/*line-height: 1.1;*/
+	background: steelblue;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#rgbDisplay{
+	font-weight: 800;
+	font-size: 200%;
+}
+
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#stripe{
+	text-align: center;
+	background: white;
+	height: 30px;
+}
+
+#message{
+	display: inline-block;
+	font-size: inherit;
+	color: steelblue;
+	font-weight: 700; 
+	width: 20%;
+}
+
+#licence{
+	color: white;
+	font-weight: 700; 
+	text-align: right;
+	text-align: bottom;
+	margin: 0;
+}
+
+
+.selected{
+	background: steelblue;
+	color: white;
+}
+
+.square{
+	width: 30%;
+	background-color: yellow;
+	padding-bottom: 30%; 
+	float: left;
+	margin: 1.667%;
+	border-radius: 15%;
+	transition: background: 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+button{
+	border: none;
+	background: none;
+	height: 100%;
+	font-size: inherit;
+	font-weight: 700;  /*no px following*/
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: steelblue;
+	outline: none;  /* get rid of the blue ouline when hover over.*/
+	/*transition effect*/
+    transition: all 0.6s;
+    -webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+button:hover{
+	background: steelblue;
+	color: white;
+}
