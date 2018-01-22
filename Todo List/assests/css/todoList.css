@@ -1,0 +1,81 @@
+h1{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+    background: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.fa-pencil-square-o{
+	float: right;
+}
+
+ul{
+	list-style: none;  /* get rid of the bullet points*/
+	padding: 0;
+	margin: 0;
+}
+
+#container{
+	box-shadow: 7px -5px 10px teal;
+	border: 0.5px solid rgba(0, 0, 0, 0);
+	width: 450px;
+	margin: 100px auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.clicked{
+	color:gray;
+	text-decoration: line-through;
+}
+
+input{
+	font-size: 18px;
+	background: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	border: 3px solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;  /*height and width including padding and border*/
+}
+
+input:focus{
+	background: white;
+	outline: none;
+	border: 3px solid #2980b9;
+}
+
+li{
+	font-size: 17px;
+	background: white;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+body{
+background: #FDFC47;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-trash-o{
+	color: white;
+	margin-right: 20px;
+	width: 0;
+	opacity: 0;
+}
+
+li:hover .fa-trash-o{
+	background: red;
+	color: white;
+	opacity: 1;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	transition: width 0.3s;
+}
